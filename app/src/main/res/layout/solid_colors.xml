@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars = "vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="SOLID COLORS" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_red"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#FF3333"
+                    android:onClick="red_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:id="@+id/button_yellow"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFF33"
+                    android:onClick="yellow_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:id="@+id/button_blue"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#3333FF"
+                    android:onClick="blue_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:id="@+id/button_violet"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#FF33FF"
+                    android:onClick="violet_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="18dp" />
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="R" />
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="G" />
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B" />
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_orange"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#FF8033"
+                    android:onClick="orange_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:id="@+id/button_green"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#33FF33"
+                    android:onClick="green_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:id="@+id/button_indigo"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#8033FF"
+                    android:onClick="indigo_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:id="@+id/button_white"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#E1E1E1"
+                    android:onClick="white_OnClick" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"/>
+                <Button
+                    android:id="@+id/button_custom"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:text="Custom"
+                    android:background="#E1E1E1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

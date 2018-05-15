@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/drawer_top">
+        <item
+            android:id="@+id/nav_leds"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My LEDs" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/drawer_bottom">
+        <item
+            android:id="@+id/nav_colors"
+            android:icon="@color/colorPrimaryDark"
+            android:title="Solid Colors" />
+        <item
+            android:id="@+id/nav_static"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Static Effects" />
+        <item
+            android:id="@+id/nav_dynamic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Dynamic Effects" />
+    </group>
+</menu>
